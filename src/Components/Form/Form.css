@@ -1,0 +1,291 @@
+.form{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color:#1f1a29 ;
+    margin-top: 50px;
+    padding-top: 6vh;
+}
+.register{
+    width: 60%;
+}
+
+.butn{
+    margin: 10px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    border: none;
+    font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.contact1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+}
+.Fname{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 5px;
+}
+
+
+.Fname input{
+    height: 20px;
+    width: 90%;
+    font-size: 10px;
+    margin-left: 10%;
+    background-color: #1f1a29 ;
+    border: none;
+    border-bottom: #3b3744  0.5px solid;
+    outline-width: 0;
+    color: #6c6872;
+}
+
+::placeholder {
+    color: #6c6872;
+    font-size: 1.5em;
+  }
+.Pnumber{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 5px;
+}
+
+
+.Pnumber input{
+    height: 20px;
+    width: 90%;
+    font-size: 10px;
+    margin-left: 10%;
+    background-color: #1f1a29 ;
+    border: none;
+    border-bottom: #3b3744  0.5px solid;
+    outline-width: 0;    
+    color: #6c6872;
+}
+
+.contact2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+}
+
+.mail{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 20px;
+}
+
+
+.mail input{
+    height: 20px;
+    width: 90%;
+    font-size: 10px;
+    margin-left: 10%;
+    background-color: #1f1a29 ;
+    border: none;
+    border-bottom: #3b3744  0.5px solid;
+    outline-width: 0;
+    color: #6c6872;
+}
+
+.coutry{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 20px;
+}
+
+
+.coutry select{
+    height: 20px;
+    width: 90%;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 10%;
+    background-color: #1f1a29;
+    border: none;
+    border-bottom: #3b3744  0.5px solid;
+    outline-width: 0;
+    color: #6c6872;
+}
+
+.company{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+
+.company input{
+    font-size: 10px;
+    height: 20px;
+    background-color: #1f1a29;
+    border: none;
+    border-bottom: #3b3744  0.5px solid;
+    outline-width: 0;
+    color: #6c6872;
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+
+.message input{
+    font-size: 10px;
+    height: 20px;
+    background-color: #1f1a29;
+    border: none;
+    border-bottom: #3b3744  0.5px solid;
+    outline-width: 0;
+    color: #6c6872;
+}
+
+.cfile{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+    
+}
+
+.cfile p{
+    font-size:15px;
+    margin-bottom: 0;
+    padding-top: 5px;
+    margin-left: 20px;
+    font-weight: 600;
+    color: #6c6872;
+}
+
+.cfile span{
+    width: 88%;
+    font-size:15px;
+    margin-bottom: 0;
+    padding-top: 5px;
+    margin-left: 20px;
+    font-weight: 600;
+    color: #6c6872;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+.cfile input {
+   display: none;
+}
+
+.clip img{
+    display: flex;
+    align-items: center;
+    
+    margin-left: 6px;
+    height: 18px;
+    
+}
+
+.clip{
+   
+    width: 5%;
+    background-color: white;
+    height: 30px;
+   
+    border-radius: 35px;
+    padding-top: 8px;
+}
+
+.ckeckbox{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+    padding-bottom: 10px;    
+
+}
+
+.ckeckbox input{
+   display:flex ;
+   margin-top: 5px;
+
+}
+
+.ckeckbox p{
+    font-size: 15px;
+    margin-left: 10px;
+    color: #6c6872;
+}
+
+.notice{
+    width: 106%;
+    font-size:10px ;
+    color: #6c6872;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.right{
+    margin-top: 38px;
+    width: 35%;
+    margin-left: 5%;
+}
+
+.ceo p{
+    margin: 20px;
+    font-size: 10px;
+    color: #6c6872;
+    font-weight: 500;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+.ceo{
+    width: 90%;
+    background-color: #2e263a;
+    margin: 20px;
+    border-radius: 5%;
+
+}
+
+.ceo img{
+    height: 20px;
+}
+.ceoinfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.ceoinfo img{
+    margin-left: 40%;
+    height: 70px;
+    width: 20%;
+
+}
+
+.ceoinfolabel{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #6c6872;
+    margin: 0;
+}
+
+.ceoinfo span{
+    font-size: 18px;
+    font-weight: 500;
+    color: #6c6872;
+}
+

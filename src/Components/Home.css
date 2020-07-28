@@ -1,0 +1,233 @@
+.home{
+    width: 100%;
+    height: 320vh;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 8vh;
+}
+
+
+
+
+.about{
+    flex-direction: column;
+    background-color: white;
+    
+}
+
+
+
+.intro{
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 63vh;
+ 
+    text-align: left;
+}
+
+h1, p {
+    font-family: Lato;
+  }
+  
+
+
+
+
+.intro p{
+    position: absolute;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+        
+   
+}
+
+.cards{
+    display: flex;
+    height: 30vh;
+    border-top: 1px solid #58585C;
+    margin-top: auto;
+    backdrop-filter: blur(10px);
+   
+}
+
+.card1{
+   width: 30%;
+   border-right:  #58585C 1px solid;
+}
+
+.card1 span{
+    display: flex;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+     
+    justify-content: center;
+    margin-top: 40px;
+    text-align: left;
+   
+}
+
+.card1dt{
+    display: flex;
+    flex-direction: row;
+}
+.card1dt p{
+   
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 10px;
+    color: white;
+    margin-left: 10%;
+    justify-content: center;
+    
+}
+
+
+
+.card2{
+   
+    width: 27%;
+    border-right: #58585C 1px solid;
+
+}
+.card2 span{
+    display: flex;
+    color: white;
+    justify-content: start;
+    text-align: left;
+    margin: 5px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.card2dt{
+    height:55%;
+    background:linear-gradient(to right, #cc2b5e, #753a88);
+    width: 101%;
+ 
+}
+
+
+.card2dt img{
+   float:right ;
+   margin-right: 5px;
+   margin-top: 5px;
+}
+
+.card2dt p{
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 10px;
+    color: white;
+    float: left;
+    margin-left: 7px;
+
+}
+
+.card2dt span{
+    font-size: 1px;
+    float: left;
+    margin-left: 7px;
+    font-weight: 100;
+    
+}
+
+.card3{
+    width: 27%;
+    border-right: #58585C 1px solid;
+}
+
+.card3 span{
+    display: flex;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    justify-content: start;
+    text-align: left;
+    margin: 5px;
+}
+
+.card3dt{
+    height:55%;
+    background: linear-gradient(to right, #c02425, #f0cb35);
+    width: 101%;
+}
+
+.card3dt img{
+    float:right ;
+    margin-right: 5px;
+   margin-top: 5px;
+ }
+
+.card3dt p{
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 10px;
+    color: white;
+    float: left;
+    margin-left: 7px;
+}
+
+.card3dt span{
+    font-size: 12px;
+    float: left;
+    font-weight: 100 ;
+    margin-left: 7px;
+   
+}
+
+
+.card4{
+ 
+    width: 30%;
+    
+}
+
+.card4 span{
+    display: flex;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    justify-content: start;
+    text-align: left;
+    margin: 5px;
+}
+
+.card4dt{
+    height:55%;
+    background: linear-gradient(to right, #43cea2, #185a9d); 
+    
+}
+
+.card4dt img{
+    float:right ;
+    margin-right: 5px;
+   margin-top: 5px;
+ }
+
+.card4dt p{
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 10px;
+    color: white;
+    float: left;
+    margin-left: 7px;
+}
+
+.card4dt span{
+    font-size: 12px;
+    float: left;
+    font-weight: 100 ;
+    margin-left: 7px;
+}

@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+@import url(https://use.fontawesome.com/releases/v5.3.1/css/all.css);
+
+.clients{
+    height: 100vh;
+    background-color: white;
+    margin-top: 20px;
+}
+
+
+
+.clients h3{
+    margin: 20px;
+}
+
+.Tabs{
+    display: flex;
+    height:10vh ;
+    width: 100%;
+    
+}
+
+.span :hover{
+    border: 5px red;
+}
+.Tab{
+    width: 25%;
+    border-top: rgb(168, 168, 168) 3px solid;
+   
+}
+
+.Tab img{
+      height: 80%;
+     
+}
+
+.Tab:hover{
+
+    border-top: 3px solid orange;
+}
+
+.content{
+    width: 100%;
+    
+    height: 80vh;
+    background: linear-gradient(to left, #f12711, #f5af19);
+    margin-top: 20px;
+}
+
+.ticktalk{
+    display: flex;
+    flex-direction: column;
+   
+    height: 80vh;
+    background: linear-gradient(to left, #f12711, #f5af19);
+    margin-top: 20px;
+}
+
+.ticktalk span{
+    margin-top: 150px;
+    color: white;
+    height: 50px;
+    font-weight: 700;
+    font-size: 30px;
+    width: 50%;
+    border-bottom: 2px white solid;
+    justify-content: flex-start;
+    margin-left: 100px;
+}
+
+.ticktalk p{
+    color: white;
+    font-size:15px ;
+    font-weight: 400;
+    width: 50%;
+    margin-left: 100px;
+}
+
+.ticktalk label{
+    color: white;
+    font-size:15px ;
+    font-weight: 400;
+    width: 50%;
+    margin-left: 100px;
+}
+    

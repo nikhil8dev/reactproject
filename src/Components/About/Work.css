@@ -1,0 +1,321 @@
+.work{
+  height: 100vh;
+  margin-top: 20px;
+}
+
+.howworks{
+   height: 50vh;
+   background-image: url("https://static01.nyt.com/images/2020/06/05/business/05GELLES-01-sub/merlin_172586607_01e832ac-df9c-49cf-b635-e0de31a5bcfe-superJumbo.jpg");
+   background-size: cover;
+   background-size: 100% 100%;
+   display: flex;
+   flex-direction: row;
+}
+
+.workhead{
+    width: 50%;
+    padding-top: 50px;
+    margin-left: 10%;
+}
+
+.workhead span{
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+}
+
+.workhead p{
+   color: white;
+   font-weight: 500;
+   font-family: 'Roboto Slab', serif;
+   text-align: left;
+}
+
+.links{
+    width: 12%;
+     padding-top: 50px;
+     justify-content: flex-end;
+    flex-direction: column;
+    margin-left: 20%;
+}
+
+.links span{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 11px;
+
+}
+
+.links p{
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Roboto Slab', serif;
+    width: 150px;
+    margin-bottom: 5px;
+}
+
+.links p:hover{
+    background-color: rgb(44, 44, 51);
+}
+
+.partnership{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.techno{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.techno span{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    line-height: 40px; 
+}
+
+.techno p{
+    text-align: left;
+    margin-left: 10%;
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.partnership img{
+    height: 200px;
+    margin-left: auto;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.get{
+    height: 100vh;
+    width: 100%;
+}
+
+.get h3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.sticker{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.sticker1{
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    border: rgb(245, 184, 245) 0.5px solid;
+    border-radius: 10px;
+}
+.sticker1 p{
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.sticker1 img{
+    height: 50px;
+}
+
+
+.sticker2{
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    border: rgb(245, 184, 245) 0.5px solid;
+    border-radius: 10px;
+}
+.sticker2 p{
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.sticker2 img{
+    height: 50px;
+}
+
+
+.sticker3{
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    border: rgb(245, 184, 245) 0.5px solid;
+    border-radius: 10px;
+}
+.sticker3 p{
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.sticker3 img{
+    height: 50px;
+}
+
+.sticker4{
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    border: rgb(245, 184, 245) 0.5px solid;
+    border-radius: 10px;
+}
+.sticker4 p{
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.sticker4 img{
+    height: 50px;
+}
+
+.sticker5{
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    border: rgb(245, 184, 245) 0.5px solid;
+    border-radius: 10px;
+}
+.sticker5 p{
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.sticker5 img{
+    height: 50px;
+}
+
+.sticker6{
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    border: rgb(245, 184, 245) 0.5px solid;
+    border-radius: 10px;
+}
+.sticker6 p{
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.sticker6 img{
+    height: 50px;
+}
+
+.cooperate{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.team{
+    width: 50%;
+    height: 80vh;
+    background-color: rgb(46, 40, 53);
+}
+
+.team span{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+.colrbar{
+    background: linear-gradient(to bottom, #8a2387, #e94057, #f27121);
+    width: 10px;
+}
+.Eteam{
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 10px;
+}
+
+.teamDet{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+
+}
+
+.teamDet img{
+    height: 20px;
+    width: 20px;
+    margin-left: 50%;
+}
+
+.teamDet label{
+    text-align: left;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+.teamDet p{
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+.smartteam{
+    display: flex;
+    flex-direction: row;
+    border-bottom: white 2px solid;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.smartteam span{
+    color: white;
+    font-size: 25px;
+    
+}
+
+.smartteam img{
+    height: 20px;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: 6px;
+}
+
+.dev{
+    display: flex;
+    flex-direction: row;
+    border-bottom: white 2px solid;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.dev span{
+    color: white;
+    font-size: 25px;
+}
+
+.dev img{
+    height: 20px;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: 6px;
+}
+
+.cooperateimg img{
+    width: 100%;
+}

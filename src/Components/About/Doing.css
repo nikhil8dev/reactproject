@@ -1,0 +1,111 @@
+.framework{
+
+    height: 10vh;
+    background-color:aquamarine;
+}
+
+.Number{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  
+}
+
+.Num1{
+  height: 50px;
+  width: 20%;
+}
+
+.Num1 label{
+   height: 35px;
+   width: 35px;
+   border: aquamarine 2px solid ;
+   border-radius: 10px;
+   margin-bottom: 0;
+}
+
+.Num1:hover{
+ 
+    border-bottom: black 3px solid;
+    z-index: 1000;
+}
+
+.Num2{
+    width: 20%;
+ }
+
+ .Num2 label{
+    height: 35px;
+    width: 35px;
+    border: aquamarine 2px solid ;
+    border-radius: 10px;
+    margin-bottom: 0;
+ }
+ 
+ .Num2:hover{
+     border-bottom: black 3px solid;
+ }
+
+ .Num3{
+    width: 20%;
+ }
+
+ .Num3 label{
+    height: 35px;
+   width: 35px;
+   border: aquamarine 2px solid ;
+   border-radius: 10px;
+   margin-bottom: 0;
+ }
+ 
+ .Num3:hover{
+     border-bottom: black 3px solid;
+ }
+
+ .Num4{
+    width: 20%;
+ }
+
+ .Num4 label{
+    height: 35px;
+   width: 35px;
+   border: aquamarine 2px solid ;
+   border-radius: 10px;
+   margin-bottom: 0;
+ }
+ 
+ .Num4:hover{
+     border-bottom: black 3px solid;
+ }
+
+.hRule{
+   height: 2px;
+   background-color:aquamarine;
+   z-index: -1;
+   margin-top: -23px;
+}
+
+ .deliver{
+     display: flex;
+     flex-direction: row;
+ }
+
+ .deliverysection{
+     width: 70%;
+ }
+
+ .deliverysection p {
+     font-size: 15px;
+     text-align: left;
+     margin-left: 20px;
+     font-family: 'Roboto Slab', serif;
+ }
+
+ .deliveryimg{
+     width: 40%;
+ }
+ .deliveryimg img{
+     height: 60%;
+ }

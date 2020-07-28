@@ -1,0 +1,99 @@
+.fotter{
+    display: flex;
+    flex-direction: row;
+     width:100%;
+    height: 50vh;
+    margin-top: 20px;
+}
+
+.fotlogo{
+  display: flex;
+  flex-direction: column;
+  width: 40%
+}
+
+
+.fotpng {
+  width: 30%;
+  height: 50px;
+}
+
+ 
+.fotpng img{
+    height: 150px;
+
+}
+ 
+.address{
+  width: 150px;
+  font-size: 17px;
+  font-weight: 700;
+  margin-top: 40px;
+
+}
+.address img{
+  height: 18px;
+  margin-bottom: 7px;
+  margin-right: 15px;
+}
+
+.fotlogo p{
+   font-size: 10px;
+   color: dimgrey;
+   margin-left: 12px;
+   font-weight: 500;
+}
+
+.fotlinks{
+ 
+   width: 57%;
+   justify-content: flex-start;
+
+}
+
+
+#fb{
+  height: 40px;
+  margin-right: 8px;
+}
+
+#twit{
+  height: 38px;
+  margin: 8px;
+}
+
+#linkedin{
+  height: 34px;
+  margin: 8px;
+}
+
+.fotmap{
+  display: flex;
+  justify-content: flex-end;
+ width: 50%;
+ margin-left: 80px;
+}
+
+.fotnavlinks{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.fotnavlinks span{
+  font-size: 10px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.fotnavlinks label{
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+
+#map {
+	width: 50%;
+	height: 80%;
+  }
